@@ -487,12 +487,12 @@ components:
           description: Cloud type (Required for config policies). Not case-sensitive.
             Default is **ALL**.
           enum:
-          - ALL
-          - AWS
-          - AZURE
-          - GCP
-          - ALIBABA_CLOUD
-          - OCI
+          - all
+          - aws
+          - azure
+          - gcp
+          - alibaba_cloud
+          - oci
           type: string
         complianceMetadata:
           description: List of compliance data. Each item has compliance standard,
@@ -566,7 +566,7 @@ components:
         policyMode:
           description: PolicyMode
           enum:
-          - custom/redlock_default
+          - custom
           type: string
         policySubTypes:
           description: Policy subtype
