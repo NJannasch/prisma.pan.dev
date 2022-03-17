@@ -329,7 +329,7 @@ paths:
             application/json:
               schema:
                 items:
-                  $ref: '#/components/schemas/UserAccountModel'
+                  $ref: '#/components/schemas/MultiRoleUserProfile'
                 type: array
           description: successful operation
         '500':
@@ -354,7 +354,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/UserAccountModel'
+              $ref: '#/components/schemas/MultiRoleUserProfile'
         description: Model for User Account
         required: true
       responses:
