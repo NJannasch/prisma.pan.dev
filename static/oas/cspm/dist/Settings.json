@@ -20,12 +20,10 @@
           },
           "alarmEnabled": {
             "description": "Alarms enabled",
-            "enum": [true, false],
             "type": "boolean"
           },
           "applyDefaultPoliciesEnabled": {
             "description": "Apply default policies enabled",
-            "enum": [true, false],
             "type": "boolean"
           },
           "defaultPoliciesEnabled": {

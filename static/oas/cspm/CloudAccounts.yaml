@@ -682,9 +682,6 @@ components:
           type: string
         hasChild:
           description: Has Child
-          enum:
-          - true
-          - false
           type: boolean
         id:
           description: Node ID
@@ -1225,8 +1222,6 @@ components:
       properties:
         enabled:
           description: Cloud Account Status
-          enum:
-          - false
           type: boolean
         groupIds:
           description: Associated Account Group Ids
@@ -1235,8 +1230,6 @@ components:
           type: array
         updateChildrenStatus:
           description: Update Children status
-          enum:
-          - false
           type: boolean
       type: object
     CloudAccountStatus:

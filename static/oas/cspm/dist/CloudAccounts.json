@@ -718,7 +718,6 @@
           "displayName": { "description": "Display name", "type": "string" },
           "hasChild": {
             "description": "Has Child",
-            "enum": [true, false],
             "type": "boolean"
           },
           "id": { "description": "Node ID", "type": "string" },
@@ -1278,7 +1277,6 @@
         "properties": {
           "enabled": {
             "description": "Cloud Account Status",
-            "enum": [false],
             "type": "boolean"
           },
           "groupIds": {
@@ -1288,7 +1286,6 @@
           },
           "updateChildrenStatus": {
             "description": "Update Children status",
-            "enum": [false],
             "type": "boolean"
           }
         },
