@@ -1238,9 +1238,6 @@ components:
           - NetworkConfig
           type: string
       required:
-      - criteria
-      - name
-      - parameters
       - type
       type: object
     ScoreModel:

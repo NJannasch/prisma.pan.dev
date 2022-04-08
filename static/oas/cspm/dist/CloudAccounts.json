@@ -1379,7 +1379,6 @@
           "groups": {
             "description": "Groups",
             "items": {
-              "additionalProperties": { "type": "object" },
               "type": "object"
             },
             "readOnly": true,

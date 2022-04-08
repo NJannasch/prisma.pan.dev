@@ -819,7 +819,7 @@
             "type": "string"
           }
         },
-        "required": ["criteria", "name", "parameters", "type"],
+        "required": ["type"],
         "type": "object"
       },
       "UIFilterModel": {
