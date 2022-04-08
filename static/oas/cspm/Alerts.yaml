@@ -850,7 +850,6 @@ components:
       required:
       - name
       - policyType
-      - rule
       - severity
       type: object
     PolicyRiskScoreModel:

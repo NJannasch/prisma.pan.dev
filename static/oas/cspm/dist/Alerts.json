@@ -892,7 +892,7 @@
             "type": "boolean"
           }
         },
-        "required": ["name", "policyType", "rule", "severity"],
+        "required": ["name", "policyType", "severity"],
         "type": "object"
       },
       "PolicyRiskScoreModel": {
