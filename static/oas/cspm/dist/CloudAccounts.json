@@ -125,14 +125,12 @@
           "masterCftTemplate",
           "masterCftUrl",
           "masterExternalId",
-          "masterRoleArn",
           "memberCftTemplate",
           "memberCftUrl",
           "memberExternalId",
           "memberRoleName",
           "scanOption",
           "snsEndpointUrl",
-          "snsTopicArn",
           "storageUUID"
         ],
         "type": "object"
